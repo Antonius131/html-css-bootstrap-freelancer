@@ -1,0 +1,25 @@
+nav {
+   height: 60px;
+}
+
+
+/****************************
+            HEADER
+*****************************/
+
+.presentation {
+   background-color: #3CBB9C;
+}
+
+/* star divider */
+
+.star-line {
+   display: inline-block;
+   width: 80px;
+   height: 3px;
+}
+
+.bi.bi-star-fill {
+   display: inline-block;
+   font-size: 2rem;
+}
