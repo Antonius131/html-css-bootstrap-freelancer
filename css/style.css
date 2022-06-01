@@ -63,12 +63,35 @@ nav a {
    font-size: 2rem;
 }
 
+
 /* form section */
 
-.form-section {
-   height: 400px;
-   background-color: cadetblue;
+input.form-control,
+input.form-control:focus  {
+   border: none;
+   border-bottom: 1px solid #ddd;
+   border-radius: 0;
 }
+
+textarea.form-control,
+textarea.form-control:focus {
+   border: none;
+   border-bottom: 1px solid #ddd;
+   border-radius: 0;
+}
+
+form .form_button {
+   border: 0;
+   color: #fff;
+}
+
+form .form_button:hover {
+   background-color: #47d1af;
+   color: #fff;
+}
+
+
+
 
 
 
@@ -77,9 +100,6 @@ nav a {
 /****************************
             FOOTER
 *****************************/
-
-
-
 
 
 .primary-footer {
