@@ -1,5 +1,5 @@
-nav {
-   height: 60px;
+body {
+   font-family: 'Roboto', sans-serif;
 }
 
 
@@ -7,21 +7,17 @@ nav {
             HEADER
 *****************************/
 
+
+nav {
+   background-color: #2C3E50;
+}
+
+nav a {
+   color: #fff;
+}
+
 .green_bg {
    background-color: #3CBB9C;
-}
-
-/* star divider */
-
-.star-line {
-   display: inline-block;
-   width: 80px;
-   height: 3px;
-}
-
-.bi.bi-star-fill {
-   display: inline-block;
-   font-size: 2rem;
 }
 
 
@@ -30,6 +26,42 @@ nav {
 /****************************
             MAIN
 *****************************/
+
+
+/* star divider */
+
+.star-divider {
+   margin: 20px auto;
+   max-width: 250px;
+   min-width: 100%;
+}
+
+.star-divider::after,
+.star-divider::before,
+.black-star-divider.star_black::after,
+.black-star-divider.star_black::before {
+   content: '';
+   display: inline-block;
+   width: 15%;
+   height: 3px;
+   border-radius: 2px;
+   vertical-align: middle;
+   margin: 0px 4px 12px 4px;
+}
+
+.star-divider::after,
+.star-divider::before {
+   background-color: #fff;
+}
+
+.black-star-divider.star_black::after,
+.black-star-divider.star_black::before {
+   background-color: #000;
+}
+
+.bi.bi-star-fill {
+   font-size: 2rem;
+}
 
 /* form section */
 
